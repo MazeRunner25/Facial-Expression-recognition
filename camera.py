@@ -8,13 +8,14 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):
     def __init__(self):
-        self.video = cv2.VideoCapture("/home/rhyme/Desktop/Demo/videos/facial_exp.mkv")
+        self.video = cv2.VideoCapture("/home/rhyme/Desktop/Demo/videos/facial_exp.mkv") 
+        //To take realtime video data from webcam set the parameter for VideoCapture as 0 i.e cv2.VideoCapture(0)
 
     def __del__(self):
         self.video.release()
 
     # returns camera frames along with bounding boxes and predictions
-    #hello
+    
     def get_frame(self):
         _, fr = self.video.read()
         gray_fr = cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY)
