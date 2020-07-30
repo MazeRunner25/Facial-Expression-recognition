@@ -7,7 +7,8 @@ Once you have trained, saved, and exported the CNN,create a model class to predi
 step 3:
 Use OpenCV to automatically detect faces(<b>Facial Recognition</b>)in images by drawing square boxes around them,use Flask to build a web application which performs real-time facial expression recognition on video and image data.This is done in the files camera.py and main.py and templates/index.html files.<br><br>
 step 4:
-Navigate to the root directory and run the file <b>main.py</b> in cmd using the command <b>python3 main.py</b>.
+Restart the kernel in jupyter notebook and navigate to the root directory and run the file <b>main.py</b> in cmd using the command <b>python3 main.py</b>.
+Now open the browser and type in 0.0.0.0:5000 to see the model up and running!!
 
 
  
