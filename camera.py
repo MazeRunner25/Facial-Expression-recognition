@@ -8,8 +8,8 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):
     def __init__(self):
-        self.video = cv2.VideoCapture("/home/rhyme/Desktop/Demo/videos/facial_exp.mkv") 
-        //To take realtime video data from webcam set the parameter for VideoCapture as 0 i.e cv2.VideoCapture(0)
+        self.video = cv2.VideoCapture("E:/Facial_Expression_Recognition/Facial-Expression-recognition/videos/facial_exp.mkv") 
+        #To take realtime video data from webcam set the parameter for VideoCapture as 0 i.e cv2.VideoCapture(0)
 
     def __del__(self):
         self.video.release()
